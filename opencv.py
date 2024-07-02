@@ -3,7 +3,7 @@ import cv2
 # variables
 height = 320
 width = 180
-FPS = 144
+FPS = 60
 cam = cv2.VideoCapture(0,cv2.CAP_DSHOW)
 
 cam.set(cv2.CAP_PROP_FRAME_HEIGHT,height)
